@@ -16,3 +16,6 @@ decel_dist -a 2843 0.1
 # Output: Distance needed to decelerate is 0.269956 AU
 ```
 
+# License
+This project is available under the MIT license.
+
