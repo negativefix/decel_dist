@@ -36,7 +36,9 @@ int main(int argc, char *argv[])
 	case 'a':
 	    to_au = true;
 	    break;
-
+	default:
+	    print_usage();
+	    return 1;
 	}
     }
 
