@@ -68,4 +68,6 @@ int main(int argc, char *argv[])
     print_program_desc();
     printf("Distance needed to decelerate is %f %s\n",
 	   fabs(distance_to_decel), unit);
+
+    return 0;
 }
