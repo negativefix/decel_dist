@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 
-#define ASTONOMIC_UNIT 149597870
+#define ASTRONOMICAL_UNIT 149597870
 
 void print_usage()
 {
@@ -18,7 +18,7 @@ void print_program_desc()
 
 double kmtoau(double distance_km)
 {
-    return distance_km / ASTONOMIC_UNIT;
+    return distance_km / ASTRONOMICAL_UNIT;
 }
 
 int main(int argc, char *argv[])
